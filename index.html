@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Form Validator + Theme Controller</title>
+</head>
+
+<body class="light">
+
+  <div class="container">
+
+    <!-- ===== Theme Controller ===== -->
+    <div class="theme-controls">
+      <button id="lightBtn">Light Mode</button>
+      <button id="darkBtn">Dark Mode</button>
+    </div>
+
+    <!-- ===== Form Validator ===== -->
+    <div class="card">
+      <h2>Register</h2>
+
+      <form id="myForm">
+        <input type="text" id="username" placeholder="Username">
+        <div></div>
+        <input type="password" id="password" placeholder="Password">
+        <div></div>
+        <input type="text" id="email" placeholder="Email">
+        <div></div>
+        <button type="submit">Submit</button>
+      </form>
+
+      <div id="generalMessage"></div>
+    </div>
+
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

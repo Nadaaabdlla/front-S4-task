@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ====== Themes ====== */
+body.light {
+  background: #ffffff;
+  color: #000;
+}
+
+body.dark {
+  background: #02151e;
+  color: #fff;
+}
+body.dark .card {
+  background: #1c3454;
+}
+body.dark #infoCon {
+  background: #1c3454;
+}
+body.dark .personInfoCon {
+  background: #2e5384;
+}
+#darkBtn.clicked{
+  background-color: #ffffff;
+  color: #04142a;
+}
+#lightBtn.clicked{
+  background-color: #26518d;
+  color: #ffffff;
+  border: #04142a 1px solid;
+
+} 
+#darkBtn {
+    background-color: #04142a;
+    border: #04142a 1px solid;
+    color: #ffffff;
+  }
+#lightBtn {
+    background-color: #ffffff;
+  }
+  
+.theme-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 50%;
+  margin: 2%;
+}
+ /* ====== containers ====== */
+ 
+.container {
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#infoCon {
+    display: flex;
+    gap: 5px;
+    width:80%;
+    background-color: #2a6f8d;
+    margin: auto;
+    padding:20px 10px;
+    color: white;
+    border-radius: 15px;
+    flex-wrap: wrap;
+  }
+  .personInfoCon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 40%;
+    margin: auto;
+    background-color: #6590a3;
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+  }
+#myForm {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+  align-items: center;
+}
+.card {
+  padding: 15px;
+  background: #eee;
+  border-radius: 5px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+/* ====== Form ====== */
+input {
+  width: 80%;
+  padding: 8px;
+  border-radius: 5px;
+  text-align: center;
+  border: #1e1e1e 1px solid;
+}
+button {
+  padding: 8px;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 5px;
+  border: #1e1e1e 1px solid;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.success {
+  color: rgb(6, 97, 6);
+  font-size: 14px;
+}
+
